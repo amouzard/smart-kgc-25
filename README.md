@@ -3,7 +3,7 @@
 # SMART: Relation-Aware Learning of Geometric Representations for Knowledge Graphs
 </div>
 
-This is the PyTorch implementation of SMART. SMART is developed in the [Rotate3D framework](XXXX) , to which we refer the users for more details.  
+This is the PyTorch implementation of SMART. SMART is developed in the [Rotate3D framework](https://github.com/gao-xiao-bai/Rotate3D) , to which we refer the users for more details.  
 
 ## Overview
 SMART is a knowledge graph embedding model (KGE) that can learn relation-specific elementary geometric transformations (EGTs.) 
@@ -14,7 +14,7 @@ In the training phase, all EGTs contribute equally to each relation which allows
 In the adaptive learning phase, attention scores to the EGTs per relation are adapted. 
 Finally, during freezing a hard selection of an EGT per relation is performed and the model continues to improve with this particular EGT.
 
-XXXX
+![SMART](asset/smartFW2.png)
 
 ## Link Prediction
 
