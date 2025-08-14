@@ -17,7 +17,6 @@ Finally, during freezing a hard selection of an EGT per relation is performed an
 ![SMART](asset/smartFW2.png)
 
 ## Link Prediction
-
 This command train the SMART model on wn18rr dataset with GPU 0.
 ```
 CUDA_VISIBLE_DEVICES=0 python -u codes/run.py --do_train \
