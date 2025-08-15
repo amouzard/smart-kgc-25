@@ -1,6 +1,6 @@
 <div align="center">
 
-# SMART: Relation-Aware Learning of Geometric Representations for Knowledge Graphs
+# Rethinking Geometric Transformations in Knowledge Graphs: Relation-Specific Modeling vs Marginal Score Gains
 </div>
 
 This is the PyTorch implementation of SMART. SMART is developed in the [Rotate3D framework](https://github.com/gao-xiao-bai/Rotate3D) , to which we refer the users for more details.  
